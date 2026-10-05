@@ -20,7 +20,6 @@ PD = df3[df3['DPTO'].astype(int) == 11 ] ['FEX_C'].sum()
 PEA = PO + PD
 
 # MEDIDAS DE MERCADO LABORAL
-
 # Tasa de ocupacion (TO)
 TO_20 = PO / PET
 
@@ -29,4 +28,3 @@ TD_20 = PD / PEA
 
 # Tasa global de participacion (TGP)
 TGP_20 = PEA / PET
-
