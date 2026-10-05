@@ -1,14 +1,14 @@
 import pandas as pd
 import pyreadstat
-
+# Rutas de los datos
 ruta1 = r"/home/jarold/Escritorio/python/Proyecto_01_Mercado_laboral/Datos/julio_2020_dta/DTA/Fuerza de trabajo.DTA"  
 ruta2 = r"/home/jarold/Escritorio/python/Proyecto_01_Mercado_laboral/Datos/julio_2020_dta/DTA/Ocupados.DTA"
 ruta3 = r"/home/jarold/Escritorio/python/Proyecto_01_Mercado_laboral/Datos/julio_2020_dta/DTA/Desocupados.DTA"
 
+# Leyendolos con pyreadstat, debido a la antiguedad.
 df1, meta = pyreadstat.read_dta(ruta1)    
 df2, meta = pyreadstat.read_dta(ruta2)    
 df3, meta = pyreadstat.read_dta(ruta3)  
-
 
 # población en edad de trabajar (PET)
 PET = df1[df1['DPTO'].astype(int) == 11] ['FEX_C'].sum()
@@ -18,7 +18,6 @@ PO =  df2[df2['DPTO'].astype(int) == 11 ] ['FEX_C'].sum()
 PD = df3[df3['DPTO'].astype(int) == 11 ] ['FEX_C'].sum()
 # Población economicamente activa (PEA)
 PEA = PO + PD
-
 
 # MEDIDAS DE MERCADO LABORAL
 
