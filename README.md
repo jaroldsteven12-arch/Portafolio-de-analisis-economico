@@ -22,7 +22,7 @@ Economista con interés en análisis cuantitativo, estadística, econometría y 
 
 | Proyecto | Tema | Herramientas |
 |----------|------|--------------|
-| Proyecto 1 | Mercado laboral colombiano | Python, Pandas, Estadística |
+| Proyecto 1 | Mercado laboral Bogotano | Python, Pandas, Estadística |
 | Proyecto 2 | Inflación en Colombia | Regresión Lineal |
 | Proyecto 3 | PIB Departamental | Series de Tiempo |
 
