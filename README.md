@@ -1,4 +1,4 @@
-# Portafolio de Analítica Económica
+# Portafolio de Analísis Económico
 
 Bienvenido a mi portafolio de proyectos de análisis económico y ciencia de datos.
 
