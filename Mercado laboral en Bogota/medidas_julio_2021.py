@@ -11,7 +11,6 @@ df1, meta = pyreadstat.read_dta(ruta1)
 df2, meta = pyreadstat.read_dta(ruta2)    
 df3, meta = pyreadstat.read_dta(ruta3)    
 
-
 # PRIMERO SE CALCULAN LAS VARIABLES PARA BOGOTA (julio de 2021)
 
 # población en edad de trabajar (PET)
@@ -24,7 +23,6 @@ PD = df3[df3['DPTO'].astype(int) == 11 ] ['fex_c_2011'].sum()
 PEA = PO + PD
 
 # MEDIDAS DE MERCADO LABORAL
-
 # Tasa de ocupacion (TO)
 TO_21 = PO / PET
 
