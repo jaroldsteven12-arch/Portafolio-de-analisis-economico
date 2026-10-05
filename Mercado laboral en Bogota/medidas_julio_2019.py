@@ -11,7 +11,7 @@ df2, meta = pyreadstat.read_dta(ruta2)
 df3, meta = pyreadstat.read_dta(ruta3)    
 df4, meta = pyreadstat.read_dta(ruta4)    
 
-# PRIMERO SE CALCULAN LAS VARIABLES PARA BOGOTA (julio de 2019)
+# PRIMERO SE CALCULAN LAS VARIABLES PARA BOGOTA 
 # población en edad de trabajar (PET)
 PET = df2[(df2['DPTO'].astype(int) == 11) & (df2['P6040'] >= 12)] ['fex_c_2011'].sum()
 # Población ocupada (PO)
