@@ -31,7 +31,6 @@ rangos = [11, 21, 31, 41, 51, 62]
 # Etiquetas
 labels = ['12-21', '22-31', '32-41', '42-51', '52-62']
 
-
 desocupados['grupo_edad'] = pd.cut(
     desocupados['P6040'],
     bins=rangos,
@@ -43,7 +42,7 @@ resultados_2019 = (
     .sum()
 )
 
-print(resultados_2019)
+
 
 
 
