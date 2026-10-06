@@ -5,8 +5,13 @@ INDICADORES DEL MERCADO LABORAL EN BOGOTA (MES DE JULIO)
          Tasa de desocupacion (TD) 0.096852 0.269203 0.156687
 Tasa global de participacion (TGP) 0.697490 0.660788 0.663191
 
+A partir de los indicadores de mercado laboral se pueden evidenciar los efectos de la pandemia del covid 19
+sobre los trabajadores en la capital de Colombia, entre 2019 y 2020 se advierte una caida de 14,6 puntos en la tasa de 
+ocupación(TO). Consecuentemente la tasa de desocupación (TD) presenta el comportamiento esperado, con un aumento 
+de 17,24 puntos.
 
-
+Por ultimo, la tasa global de participación presenta la menor caida entre estos 3 indicadores. Situacion esperable, teniendo en
+cuenta que muy pocas personas pueden prescindir de trabajar. Ademas, los 3 estimadores presentas una recuperacion en el mismo mes del año 2021, siendo a mi criterio personal la de reducción de la tasa de desocupación. 
 
 DESOCUPACION POR RANGO DE EDAD (MES DE JULIO)
 grupo_edad          2019          2020          2021  Var_20 / 19_%  Var_21 / 20_%
