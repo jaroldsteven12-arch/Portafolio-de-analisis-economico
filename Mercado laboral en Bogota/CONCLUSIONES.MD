@@ -1,7 +1,7 @@
 INDICADORES DEL MERCADO LABORAL EN BOGOTA (MES DE JULIO)
 
-|                           Medida|    2019|    2020|    2021|
-|           Tasa de ocupacion (TO)|0.629937|0.482901|0.559278|
+                            Medida     2019     2020     2021
+            Tasa de ocupacion (TO) 0.629937 0.482901 0.559278
          Tasa de desocupacion (TD) 0.096852 0.269203 0.156687
 Tasa global de participacion (TGP) 0.697490 0.660788 0.663191
 
@@ -21,5 +21,7 @@ grupo_edad          2019          2020          2021  Var_20 / 19_%  Var_21 / 20
      32-41  80764.095263 243918.126480 156315.715457     202.013074     -35.914679
      42-51  50686.571111 232882.852842  96138.451273     359.456712     -58.718107
      52-62  46612.680655 125974.510483  74951.626588     170.258026     -40.502546
+
+el perro corre
  
 
